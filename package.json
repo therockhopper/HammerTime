@@ -1,0 +1,21 @@
+{
+  "name": "hammertime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dash": "webpack-dev-server --config ./dashboard/webpack.config.js",
+    "start-one": "webpack-dev-server --config ./productOne/webpack.config.js",
+    "start-two": "webpack-dev-server --config ./productTwo/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "hammerspace": "github:theREDspace/HammerSpace#master"
+  }
+}
